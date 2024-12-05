@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: white;
+}
+#display{
+    width: fit-content;
+    max-width: 190px;
+    margin: 2em auto 1em auto;
+    background-color: black;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    color: white;
+    text-align: right;
+    font-size: 30px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#btn{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    background-color: black;
+    color: white
+}
+
+button{
+    border-radius: 50%;
+    width: 3em ;
+    height: 3em;
+    background-color: rgb(30, 32, 30);
+    transition: background-color 1s ease, color 1s ease;
+    color: white;
+    border: none;
+
+}
+button:hover{
+    color : white;
+    background-color: rgb(89, 90, 88);
+}
+.greenText{
+    color: #6ac639;
+}
+.clear{
+    color: rgb(246, 109, 132);
+}
+.EqualTo{
+    color: white;
+    background-color: #63cf29;
+}
