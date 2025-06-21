@@ -10,6 +10,9 @@ function clearDisplay() {
     count = 0;
 }
 function solve() {
+    if(display.value.trim() === ""){
+        return;
+    }
     try {
         display.value = eval(display.value)
         display.style.color = "#6ac639"
